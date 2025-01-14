@@ -1,5 +1,13 @@
 # ESN LAB 2 - 7 segment with avalon interface
 
+*note: for the best viewing experience, view this document in vscode with the [markdown preview enhanced by Yiyi Wang extension](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) installed.*
+
+*you may need to set this setting in the extension's settings (done through the GUI):*
+```yaml
+plantuml server:
+https://kroki.io/plantuml/svg/
+```
+
 to start cygwin from powershell:
 ```pwsh
 & 'C:\intelFPGA\18.1\nios2eds\Nios II Command Shell.bat'
@@ -110,6 +118,8 @@ flowchart TB
 ## Progress
 
 The system is functionnal, both the 1 and 3 7 segment counters have been implmented, backed by C logic from the NIOS over the AVMM bus.
+
+> note: if this wavedrom cannot be viewed using vscode, you can view it using [this website](https://wavedrom.com/editor.html)
 
 ```wavedrom
 { "signal": [
