@@ -39,13 +39,13 @@ add_fileset QUARTUS_SYNTH QUARTUS_SYNTH "" ""
 set_fileset_property QUARTUS_SYNTH TOP_LEVEL AV2SEGM3
 set_fileset_property QUARTUS_SYNTH ENABLE_RELATIVE_INCLUDE_PATHS false
 set_fileset_property QUARTUS_SYNTH ENABLE_FILE_OVERWRITE_MODE false
-add_fileset_file AV2SEGM3.vhd VHDL PATH ip/AV2SEGM3/hdl/AV2SEGM3.vhd TOP_LEVEL_FILE
+add_fileset_file AV2SEGM3.vhd VHDL PATH hdl/AV2SEGM3.vhd TOP_LEVEL_FILE
 
 add_fileset SIM_VHDL SIM_VHDL "" ""
 set_fileset_property SIM_VHDL TOP_LEVEL AV2SEGM3
 set_fileset_property SIM_VHDL ENABLE_RELATIVE_INCLUDE_PATHS false
 set_fileset_property SIM_VHDL ENABLE_FILE_OVERWRITE_MODE true
-add_fileset_file AV2SEGM3.vhd VHDL PATH ip/AV2SEGM3/hdl/AV2SEGM3.vhd
+add_fileset_file AV2SEGM3.vhd VHDL PATH hdl/AV2SEGM3.vhd
 
 
 # 
